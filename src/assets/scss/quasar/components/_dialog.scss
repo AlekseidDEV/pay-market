@@ -1,0 +1,9 @@
+.q-dialog__inner {
+    @media (max-width: $breakpoint-sm-max) {
+        padding: 10px;
+    }
+}
+
+.q-dialog__inner > div {
+    border-radius: 22px;    
+}

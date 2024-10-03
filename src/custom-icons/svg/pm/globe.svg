@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="20"
+   height="20"
+   viewBox="0 0 20 20"
+   fill="none"
+   version="1.1"
+   id="svg3240"
+   sodipodi:docname="globe.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3244" />
+  <sodipodi:namedview
+     id="namedview3242"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="43.9"
+     inkscape:cx="10.01139"
+     inkscape:cy="10"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3240" />
+  <path
+     style="color:#000000;fill:#001a72;-inkscape-stroke:none"
+     d="m 10,0.25 c -5.3758852,0 -9.75,4.3741148 -9.75,9.75 0,5.375922 4.3741188,9.75 9.75,9.75 5.375918,0 9.75,-4.374082 9.75,-9.75 0,-5.3758812 -4.374078,-9.75 -9.75,-9.75 z m 0,1.8535156 C 10.653476,2.6554018 12.838286,4.8036715 13.132813,9.25 H 6.8671875 C 7.1617138,4.8036715 9.3465236,2.6554018 10,2.1035156 Z M 7.9960937,2.1523438 C 6.8178384,3.5385966 5.5902363,5.6543396 5.3710937,9.25 H 1.9003906 C 2.2306329,5.7505661 4.6776072,3.0012703 7.9960937,2.1523438 Z m 4.0078123,0 C 15.322408,3.0012696 17.769371,5.7505637 18.099609,9.25 H 14.628906 C 14.409764,5.6543396 13.182162,3.5385966 12.003906,2.1523438 Z M 1.9003906,10.75 h 3.4707031 c 0.2191426,3.59566 1.4467447,5.711403 2.625,7.097656 C 4.6776058,16.998738 2.2306326,14.24946 1.9003906,10.75 Z m 4.9667969,0 H 13.132813 C 12.838286,15.196328 10.653476,17.344598 10,17.896484 9.3465236,17.344598 7.1617138,15.196328 6.8671875,10.75 Z m 7.7617185,0 h 3.470703 c -0.330238,3.499463 -2.7772,6.248739 -6.095703,7.097656 1.178256,-1.386253 2.405858,-3.501996 2.625,-7.097656 z"
+     id="path3238" />
+</svg>

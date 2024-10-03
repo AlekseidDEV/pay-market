@@ -1,0 +1,12 @@
+.pm-checkbox .q-checkbox{
+  &__inner--falsy .q-icon{
+    color: transparent;
+    background: #F3F4F7;
+    border-radius: 8px;
+  }
+  &__inner--truthy .q-icon{
+    color: #F90042;
+    background: #F3F4F7;
+    border-radius: 8px;
+  }
+}

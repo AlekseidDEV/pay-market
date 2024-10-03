@@ -1,0 +1,40 @@
+.x-icon{
+  background: url("/icons/close.svg") no-repeat center;
+  width: 16px;
+  height: 16px;
+  @media (max-width: 640px) {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.icon-eye-close{
+  width: 24px;
+  height: 24px;
+  background: url("/icons/eye-closed.svg") no-repeat center;
+}
+.icon-eye{
+  width: 24px;
+  height: 24px;
+  background: url("/icons/eye-open.svg") no-repeat center;
+}
+
+.pm-wallet{
+  width: 28px;
+  height: 20px;
+  background: url("/icons/wallet.svg") no-repeat center;
+  display: flex;
+}
+.pm-curved{
+  width: 20px;
+  height: 20px;
+  background: url("/icons/curvedIce.svg") no-repeat center;
+  display: flex;
+}
+
+.pm-telegram {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/icons/telegram.svg") no-repeat center/cover;
+}

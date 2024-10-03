@@ -1,0 +1,26 @@
+.q-field__append:last-child {
+    padding-left: 14px;
+}
+
+.q-icon.q-select__dropdown-icon {
+    font-size: 18px;
+    color: #001a72;
+}
+
+.q-field__append.q-field__marginal {
+    .q-icon.q-field__focusable-action {
+        font-size: 14px;
+        color: #001a72;
+    }
+}
+
+.q-item__label__dropdown-option {
+    color: #323232;
+    border-radius: 8px;    
+}
+
+.q-dialog__inner {
+    .q-select__dialog{
+        border-radius: 8px;
+    }
+}

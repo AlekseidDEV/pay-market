@@ -1,0 +1,43 @@
+@import "mixins/btn-default";
+
+.pink {
+  @include btn-default(
+          $border: 1px solid #F90042,
+          $bg-default: transparent,
+          $enable-bg: #F90042,
+          $disable-bg: #f900423d
+  );
+}
+
+.dark {
+  @include btn-default(
+          $border: 1px solid #100e19,
+          $bg-default: transparent,
+          $enable-bg: #100e19,
+          $disable-bg: #100e19,
+  );
+}
+
+.grey {
+  @include btn-default(
+          $border: 1px solid #3B384C,
+          $bg-default: transparent,
+          $enable-bg: #3B384C,
+          $disable-bg: #3B384C,
+  );
+}
+
+.dark-grey {
+  @include btn-default(
+          $border: none,
+          $bg-default: #242136,
+          $enable-bg: #242136,
+          $disable-bg: #242136,
+  );
+}
+
+.none {
+  @include btn-default(
+          $border: none,
+  )
+}

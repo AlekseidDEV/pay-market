@@ -1,0 +1,130 @@
+@import "scss/fonts";
+@import "scss/icons";
+@import "scss/quasar/index";
+@import "scss/custom/pmSplitterPanel";
+@import "scss/custom/vacanciesCarousel";
+
+//breakpoints:
+// Extra Small  	xs	0px	    319.99px
+// Small        	sm	320px	  639.99px
+// Medium	        md	640px	  1279.99px
+// Large	        lg	12800px	1919.99px
+// Extra Large	  xl	1920px	Infinity
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+//body  * {
+//  border: 1px solid green;
+//} // проверка элементов, которые ломают верстку
+
+.container {
+  max-width: 1825px;
+  width: 100%;
+  margin: auto;
+}
+
+.layout-container {
+  max-width: 1825px;
+  width: 100%;
+  margin: auto;
+}
+
+.page-container, .block-container {
+  max-width: 1130px;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  font-family: "Roboto";
+  background: #100e19;
+  color: #ffffffbf;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+
+h3 {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.table-traffic tbody td:nth-child(3) {
+  color: rgb(249, 0, 66);
+}
+
+.payment-form__table thead tr td,
+.payment-form__table thead tr td:first-child
+{
+  color: rgb(249, 0, 66);
+}
+
+.q-field--without-bottom-slot.q-field--error.q-field--with-bottom {
+  padding-bottom: 0;
+  .q-field__inner {
+    .q-field__bottom {
+      display: none;
+      .q-field__messages {
+        display: none;
+      }
+    }
+  }
+  .q-field__bottom--animated {
+    .q-field__messages {
+      display: none;
+    }
+  }
+}
+
+.rounded-borders {
+  border-radius: 8px;
+}
+
+.h-full{height: 100%}
+
+.pm-text-gradient{
+  font-size: inherit;
+  background: linear-gradient(90deg, #A855F7 0%, #EC4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  white-space: nowrap;
+  font-weight: 800;
+  position: relative;
+}
+.pm-text-gradient-gold{
+  font-size: inherit;
+  background: linear-gradient(95.23deg, #AE8625 -2.59%, rgba(247, 239, 138, 0.830208) 31.35%, #D2A747 63.39%, #EDC967 98.27%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  white-space: nowrap;
+  font-weight: 800;
+  position: relative;
+}
+
+

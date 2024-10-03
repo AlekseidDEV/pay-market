@@ -1,0 +1,32 @@
+$primary   : #1976d2;
+$secondary : #26a69a;
+$accent    : #9c27b0;
+
+$dark      : #fff;
+$dark-page : #fff;
+
+$positive  : #21ba45;
+$negative  : #c10015;
+$info      : #31ccec;
+$warning   : #f2c037;
+
+//breakpoints:
+// Extra Small  	xs	0px	      319.99px
+// Small        	sm	320px	  639.99px
+// Medium	        md	640px	  1279.99px
+// Large	        lg	1280px	  1919.99px
+// Extra Large	    xl	1920px	  Infinity
+
+$breakpoint-xs: 319px !default;
+$breakpoint-sm: 639px !default;
+$breakpoint-md: 1279px !default;
+$breakpoint-lg: 1919px !default;
+
+$red-13  : #F90042 !default;
+
+$grey-13 : #ffffffbf !default;
+
+$purple-10  : #1E1B2E   !default;
+$purple-11  : #100E19   !default;
+$purple-12  : #242136   !default;
+

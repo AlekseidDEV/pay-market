@@ -1,0 +1,115 @@
+
+.q-field--standout.q-field--readonly .q-field__control:before{
+  border: none;
+}
+
+.q-field__control {
+  color: rgb(140, 139, 142);
+  max-width: 100%;
+  outline: none;
+}
+
+.q-field__append {
+  height: inherit;
+}
+
+.q-field--standout .q-field__control {
+  padding: 0 12px;
+  background: rgb(243, 244, 247);
+  border-radius: 8px;
+  transition: box-shadow 0.36s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.36s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.field--grey.q-field--standout .q-field__control {
+  padding: 0 12px;
+  background: rgba(243, 244, 247, 0.13);
+  border-radius: 8px;
+  transition: box-shadow 0.36s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.36s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.field--grey .q-field__label, .field--grey input{
+  color: #8C8B8E;
+}
+
+.q-field__label {
+  left: 0;
+  top: 18px;
+  max-width: 100%;
+  color: rgb(50, 50, 50);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.00937em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  transform-origin: left top;
+  transition: transform 0.36s cubic-bezier(0.4, 0, 0.2, 1), max-width 0.324s cubic-bezier(0.4, 0, 0.2, 1);
+  backface-visibility: hidden;
+}
+
+.q-field--standout.q-field--highlighted .q-field__control {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+  background: rgb(243, 244, 247);
+}
+
+.q-field--standout.q-field--highlighted .q-field__native, .q-field--standout.q-field--highlighted .q-field__prefix, .q-field--standout.q-field--highlighted .q-field__suffix, .q-field--standout.q-field--highlighted .q-field__prepend, .q-field--standout.q-field--highlighted .q-field__append, .q-field--standout.q-field--highlighted .q-field__input {
+  color: rgb(50, 50, 50);
+}
+
+.q-field__messages{
+  color: #F52222;
+}
+
+.q-field--with-bottom{
+  padding-bottom: 0;
+  transition: all 0.5s;
+}
+
+.q-field--error.q-field--standout.q-field--highlighted .q-field__control{
+  background: #fee0e0;
+}
+.field__new-password.q-field--error.q-field--with-bottom{
+  padding-bottom: 25px;
+}
+
+.message-lg.q-field--error.q-field--with-bottom{
+  padding-bottom: 28px;
+  transition: 0.2s;
+}
+
+.q-field--error.q-field--with-bottom{
+  padding-bottom: 12px;
+  transition: 0.2s;
+}
+
+.q-field input{
+  font-size: 16px;
+}
+
+.input__confirm-code{
+  font-size: 20px;
+  & input {
+    letter-spacing: 3px;
+  }
+}
+
+.eye-password{
+  cursor: pointer;
+  pointer-events: painted;
+}
+
+
+// main-input-outlined
+.q-input.main-input-outlined .q-field__label {
+    color: #fff;
+}
+.q-input.main-input-outlined input {
+  color: #fff;
+}
+.q-input.main-input-outlined  .q-field__control:before {
+  border: 2px solid #fff;
+}
+.q-input.main-input-outlined  .q-field__control:after {
+  border: 1px solid #555555;
+}
+

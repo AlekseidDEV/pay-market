@@ -1,0 +1,39 @@
+name: Deploy to user domain
+
+on:
+  pull_request:    
+    types: [ opened, edited, synchronize, reopened]
+    branches: [ development ]
+    
+  workflow_dispatch:    
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      
+      - name: Print versions
+        run: |
+          node -v
+          npm -v
+      
+      - uses: actions/checkout@v3   
+
+      - name: Show files
+        run: |
+         pwd
+          ls -la
+          
+      - name: Install node-modules
+        run: npm install
+
+      - name: Build Project
+        run: npm run build    
+
+      - name: Deploy to user stage domain
+        run: sh ~/deploy_scripts/deploy_to_user_stage.sh ${{github.actor}}
+          

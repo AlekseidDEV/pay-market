@@ -1,0 +1,37 @@
+name: Deploy to stage
+
+on:
+  push:    
+    branches: [ development ]  
+    
+  workflow_dispatch:    
+
+jobs:
+  build-and-deploy:
+    runs-on: market-runner
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      
+      - name: Print versions
+        run: |
+          node -v
+          npm -v
+      
+      - uses: actions/checkout@v3   
+
+      - name: Show files
+        run: |
+          pwd
+          ls -la
+          
+      - name: Install node-modules
+        run: npm install
+
+      - name: Build Project
+        run: npm run build    
+
+      - name: Copy files
+        run: sh ~/deploy_scripts/deploy_to_stage.sh          

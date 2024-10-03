@@ -1,0 +1,21 @@
+.q-field.q-field--filled.q-textarea{
+  height: 100%;
+  font-size: 16px;
+}
+
+.q-textarea .q-field__control {
+  height: 100%;
+  background: rgb(243, 244, 247);
+}
+
+.q-field--filled .q-field__control{
+  border-radius: 8px;
+}
+
+.q-field--filled .q-field__control:after{
+  height: 0;
+}
+
+.q-field textarea {
+  font-size: 16px;
+}

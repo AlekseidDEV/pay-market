@@ -1,0 +1,24 @@
+.q-radio{
+  &__inner {
+    font-size: 40px;
+    width: 1em;
+    min-width: 1em;
+    height: 1em;
+    outline: 0;
+    border-radius: 50%;
+    &--truthy .q-radio__check{
+      transform-origin: 48% 50%;
+      transform: scale3d(1.6, 1.6, 1.6);
+    }
+  }
+  &__bg{
+    border: 2px solid #312E43;
+    border-radius: 50%;
+  }
+  &__bg path:first-child{
+    fill: none;
+  }
+  &__bg path:last-child{
+    fill: #F90042;
+  }
+}

@@ -1,0 +1,70 @@
+.main-current-vacancies__carousel{
+  > div {
+    max-width: 514px;
+    position: relative;
+    &::after{
+      position: absolute;
+      content: '';
+      top: 5px;
+      left: 8px;
+      width: 100%;
+      height: 105px;
+      background: var(--after);
+      z-index: 8;
+      border-radius: 8px;
+    }
+    &::before{
+      position: absolute;
+      content: '';
+      top: 10px;
+      left: 16px;
+      width: 100%;
+      height: 110px;
+      background: var(--before);
+      z-index: 8;
+      border-radius: 8px;
+    }
+  }
+  .q-carousel__slides-container{
+    background: #100e19;
+    position: relative;
+    z-index: 9;
+    min-width: 514px;
+  }
+
+  .q-carousel__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-0 {
+    background: #2b4fbf;
+  }
+  .hero-1 {
+    background: #693dca;
+  }
+  .hero-2 {
+    background: #b53ba4;
+  }
+  .hero-3 {
+    background: #25b665;
+  }
+
+  @media (max-width: 580px) {
+    .q-carousel__slides-container{
+      width: 320px;
+      min-width: 320px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .q-carousel__slides-container{
+      width: 250px;
+      min-width: 250px;
+    }
+    .q-carousel__slide h2{
+      font-size: 18px;
+    }
+  }
+}
